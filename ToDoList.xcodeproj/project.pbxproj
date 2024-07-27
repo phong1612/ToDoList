@@ -13,6 +13,8 @@
 		FD4BD6BD2BC2079800C0AD0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4BD6BB2BC2079800C0AD0C /* Main.storyboard */; };
 		FD4BD6BF2BC2079B00C0AD0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4BD6BE2BC2079B00C0AD0C /* Assets.xcassets */; };
 		FD4BD6C22BC2079B00C0AD0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4BD6C02BC2079B00C0AD0C /* LaunchScreen.storyboard */; };
+		FD4BD6CA2BC2226D00C0AD0C /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4BD6C92BC2226C00C0AD0C /* EntryViewController.swift */; };
+		FD4BD6CC2BC2228D00C0AD0C /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4BD6CB2BC2228D00C0AD0C /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FD4BD6BE2BC2079B00C0AD0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD4BD6C12BC2079B00C0AD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD4BD6C32BC2079B00C0AD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4BD6C92BC2226C00C0AD0C /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		FD4BD6CB2BC2228D00C0AD0C /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				FD4BD6BE2BC2079B00C0AD0C /* Assets.xcassets */,
 				FD4BD6C02BC2079B00C0AD0C /* LaunchScreen.storyboard */,
 				FD4BD6C32BC2079B00C0AD0C /* Info.plist */,
+				FD4BD6C92BC2226C00C0AD0C /* EntryViewController.swift */,
+				FD4BD6CB2BC2228D00C0AD0C /* TaskViewController.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD4BD6BA2BC2079800C0AD0C /* ViewController.swift in Sources */,
+				FD4BD6CA2BC2226D00C0AD0C /* EntryViewController.swift in Sources */,
+				FD4BD6CC2BC2228D00C0AD0C /* TaskViewController.swift in Sources */,
 				FD4BD6B62BC2079800C0AD0C /* AppDelegate.swift in Sources */,
 				FD4BD6B82BC2079800C0AD0C /* SceneDelegate.swift in Sources */,
 			);
@@ -290,8 +298,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8TF38MDX6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToDoList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -306,6 +316,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JasonDinh.ToDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,8 +328,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8TF38MDX6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToDoList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -333,6 +346,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JasonDinh.ToDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

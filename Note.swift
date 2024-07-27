@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         }
         // Get all current saved tasks
         updateTask()
+        
     }
     
     func updateTask() {
